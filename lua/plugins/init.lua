@@ -20,8 +20,24 @@ return {
         "html", "css",
         "rust", "toml",
         "python",
+        "markdown", "markdown_inline",
       },
     },
+  },
+
+  {
+    "MeanderingProgrammer/render-markdown.nvim",
+    ft = { "markdown" },
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+      "nvim-tree/nvim-web-devicons",
+    },
+    opts = {},
+  },
+
+  {
+    "sitiom/nvim-numbertoggle",
+    event = "BufReadPost",
   },
 
   {
