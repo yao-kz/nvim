@@ -20,6 +20,7 @@ return {
         "html", "css",
         "rust", "toml",
         "python",
+        "c", "cpp",
         "markdown", "markdown_inline",
       },
     },
